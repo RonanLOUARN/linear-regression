@@ -11,7 +11,7 @@ Features:
 
 ## Installation
 ```
-  gem install ruby_linear_regression
+  gem install lr_linear_regression
 ```
 
 ## Example of usage - Train model using normal equation
@@ -19,7 +19,7 @@ Features:
 ```Ruby
 require 'matrix'
 require 'csv'
-require 'ruby_linear_regression'
+require 'lr_linear_regression'
 
 x_data = []
 y_data = []
@@ -55,7 +55,7 @@ More details about this example implementation can be found in this [blog post](
 ```Ruby
 require 'matrix'
 require 'csv'
-require 'ruby_linear_regression'
+require 'lr_linear_regression'
 
 x_data = []
 y_data = []
